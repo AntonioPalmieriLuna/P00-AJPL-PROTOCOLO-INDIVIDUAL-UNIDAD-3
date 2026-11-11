@@ -7,7 +7,7 @@ public abstract class Vehiculo {
         this.marca = marca;
     }
 
-    // Método concreto en clase abstracta: las clases hijas no están obligadas a sobrescribirlo
+    // Metodo concreto en clase abstracta: las clases hijas no están obligadas a sobrescribirlo
     public void acelerar() {
         System.out.println("El vehiculo acelera");
     }
